@@ -1,19 +1,17 @@
 [app]
-title = Empty App
-package.name = emptyapp
-package.domain = org.mayera
+title = Jannat Light
+package.name = jannatlight
+package.domain = com.sajal.jannat
 source.dir = .
-source.include_exts = py
-version = 0.1
-requirements = python3,kivy
+source.include_exts = py,png,jpg,kv,atlas,json,txt
+version = 0.1.0-light
+requirements = python3
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
-android.api = 33
-android.minapi = 24
-android.ndk = 25b
-android.archs = arm64-v8a
+android.minapi = 21
 android.accept_sdk_license = True
+android.archs = arm64-v8a
 
 [buildozer]
 log_level = 2
